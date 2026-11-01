@@ -1,0 +1,19 @@
+{
+  "images": {
+    "intro": {
+      "file": "gioi-thieu-workflow/art-intro.jpg",
+      "model": "black-forest-labs/flux-3-image-klein",
+      "cost": 0.009
+    },
+    "network": {
+      "file": "gioi-thieu-workflow/art-network.jpg",
+      "model": "black-forest-labs/flux-3-image-klein",
+      "cost": 0.009
+    },
+    "burst": {
+      "file": "gioi-thieu-workflow/art-burst.jpg",
+      "model": "black-forest-labs/flux-3-image-klein",
+      "cost": 0.009
+    }
+  }
+}

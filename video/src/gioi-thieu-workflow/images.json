@@ -1,0 +1,17 @@
+{
+  "aspect_ratio": "9:16",
+  "images": [
+    {
+      "id": "intro",
+      "prompt": "Vertical abstract digital artwork: flowing glowing ribbons of light made of tiny code characters and film frames, deep navy background, electric blue and violet neon highlights with a hint of pink, soft bokeh, cinematic depth, dark moody empty space in the lower half, no text, no letters, no logos"
+    },
+    {
+      "id": "network",
+      "prompt": "Vertical abstract illustration of a luminous network of connected nodes and thin glowing lines spreading outward from a bright central hub, deep navy background, electric blue, violet and pink neon glow, subtle grid, dark empty space at the top and bottom, no text, no letters, no logos"
+    },
+    {
+      "id": "burst",
+      "prompt": "Vertical abstract artwork of a radiant burst of light rays and floating particles rising from below, deep navy and indigo background, blue to violet gradient glow, celebratory and energetic, dark empty space in the center, no text, no letters, no logos"
+    }
+  ]
+}

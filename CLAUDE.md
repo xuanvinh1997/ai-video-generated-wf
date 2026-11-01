@@ -16,3 +16,4 @@ Coding-agent workspace for producing videos with Remotion (React) and distributi
 - The hosted Remotion MCP server was shut down (2026-10-26). Use the `remotion-docs` skill for documentation, not an MCP.
 - Run `cd video && npm run lint` before reporting a composition as done.
 - Anything that spends money or messages people (Meta Ads, WhatsApp) needs explicit user approval first; see `social-publish`.
+- Voiceover and AI clips go through OpenRouter (`video/scripts/`, key in `.env`). Model tiers are in `video/scripts/models.json`; default to the `cheap` tier. `genimage.mjs` and `genvideo.mjs` need `--yes` to spend money, so get user approval first.

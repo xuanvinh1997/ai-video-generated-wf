@@ -1,0 +1,9 @@
+{
+  "lines": [
+    { "id": "s1", "text": "AI video, written in code." },
+    { "id": "s2", "text": "First, describe your idea." },
+    { "id": "s3", "text": "An agent builds it in Remotion." },
+    { "id": "s4", "text": "Then connect Meta through MCP." },
+    { "id": "s5", "text": "Try Claude Code and Remotion." }
+  ]
+}

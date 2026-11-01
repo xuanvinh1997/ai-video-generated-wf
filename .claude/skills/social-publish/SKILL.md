@@ -22,7 +22,7 @@ None of these documents a tool for posting a video to a Facebook Page or Instagr
 - Never write tokens (e.g. from `system_user_token`) to files or logs.
 
 ## Pre-publish checklist
-- Rendered file exists in `out/` and matches the brief's ratio, length and size.
+- Rendered file exists in `out/` and matches the brief's ratio, length and size. Produce it with `cd video && node scripts/export.mjs <slug> --preset reels|feed|landscape`; every check must print PASS. Its limits come from third-party guides, so confirm them against Meta's Ads Guide before spending money.
 - Captions burned in or provided, since most feed video plays muted.
 - Copy and CTA match the brief; assets are licensed for the use.
 - User has approved the final render.

@@ -7,23 +7,33 @@ export const Background: React.FC = () => {
 
   return (
     <AbsoluteFill style={{ backgroundColor: colors.bg }}>
-      <AbsoluteFill
+      <div
         style={{
-          background: `radial-gradient(900px 900px at 0% 0%, ${colors.blue}55, transparent 70%)`,
+          position: "absolute",
+          left: -700,
+          top: -700,
+          width: 1400,
+          height: 1400,
+          background: `radial-gradient(circle, ${colors.blue}55, transparent 65%)`,
           translate: interpolate(
             frame,
             [0, durationInFrames],
-            ["0px 0px", "260px 420px"],
+            ["0px 0px", "420px 760px"],
           ),
         }}
       />
-      <AbsoluteFill
+      <div
         style={{
-          background: `radial-gradient(1000px 1000px at 100% 100%, ${colors.purple}55, transparent 70%)`,
+          position: "absolute",
+          right: -800,
+          bottom: -800,
+          width: 1600,
+          height: 1600,
+          background: `radial-gradient(circle, ${colors.purple}55, transparent 65%)`,
           translate: interpolate(
             frame,
             [0, durationInFrames],
-            ["0px 0px", "-240px -520px"],
+            ["0px 0px", "-380px -820px"],
           ),
         }}
       />

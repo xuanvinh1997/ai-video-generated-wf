@@ -1,0 +1,31 @@
+{
+  "model": "hexgrad/kokoro-82m",
+  "voice": "af_heart",
+  "lines": {
+    "s1": {
+      "file": "gioi-thieu-workflow/vo-s1.mp3",
+      "durationInSeconds": 2.184,
+      "generationId": "gen-tts-1793509439-JmPMLroaGkWpy2vzttGd"
+    },
+    "s2": {
+      "file": "gioi-thieu-workflow/vo-s2.mp3",
+      "durationInSeconds": 2.064,
+      "generationId": "gen-tts-1793509450-jZB7g56KuNecetwpRKpE"
+    },
+    "s3": {
+      "file": "gioi-thieu-workflow/vo-s3.mp3",
+      "durationInSeconds": 2.28,
+      "generationId": "gen-tts-1793509466-8ZObrjXEOtQNAArg7J49"
+    },
+    "s4": {
+      "file": "gioi-thieu-workflow/vo-s4.mp3",
+      "durationInSeconds": 2.4,
+      "generationId": "gen-tts-1793509481-P2AcaEMowwq6EGEvW0X8"
+    },
+    "s5": {
+      "file": "gioi-thieu-workflow/vo-s5.mp3",
+      "durationInSeconds": 2.136,
+      "generationId": "gen-tts-1793509497-44Zl4hxv4AJcMLFJuhSM"
+    }
+  }
+}

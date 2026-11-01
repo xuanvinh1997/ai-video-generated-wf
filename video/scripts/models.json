@@ -1,0 +1,18 @@
+{
+  "default": "cheap",
+  "tts": {
+    "cheap": { "model": "hexgrad/kokoro-82m", "voice": "af_heart" },
+    "standard": { "model": "google/gemini-3.8-flash-tts", "voice": "Kore" },
+    "premium": { "model": "elevenlabs/eleven-v3", "voice": "george" }
+  },
+  "image": {
+    "cheap": { "model": "black-forest-labs/flux-3-image-klein" },
+    "standard": { "model": "qwen/qwen-image-3" },
+    "premium": { "model": "google/gemini-3.1-flash-image" }
+  },
+  "video": {
+    "cheap": { "model": "google/veo-3.1-lite", "resolution": "720p" },
+    "standard": { "model": "kwaivgi/kling-v3.0-std", "resolution": "720p" },
+    "premium": { "model": "google/veo-3.1", "resolution": "1080p" }
+  }
+}
