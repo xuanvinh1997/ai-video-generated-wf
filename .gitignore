@@ -1,0 +1,10 @@
+.DS_Store
+.env
+.env.*
+node_modules
+out/
+video/out/
+video/dist/
+assets/*
+!assets/.gitkeep
+.claude/settings.local.json
